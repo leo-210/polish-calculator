@@ -18,7 +18,8 @@ to `10 3 4 +`, and in these cases the program will ignore the first number inste
 of returning an error.
 
 The 4 principal operation are supported (i.e. addition, substraction, multiplication 
-and division), and only integers are valid. All other characters are treated as whitespace.
+and division), and only positive integers are valid (the program can return negative 
+integer though). All other characters are treated as whitespace.
 
 So this is valid syntax :
 ```
